@@ -14,7 +14,7 @@ Here is the link of the challange-
 https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1
 
 Here is the solution site url-
-https://drougnov.github.io/intro-component-with-sign-up-form-master/
+https://drougnov.github.io/intro-component-with-signup-form-master/
 
 ## Built with
 
