@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <style>
+    .attribution {text-align: center; font-size: .7rem; margin-bottom: 1rem;}
+    .attribution a:hover{text-decoration: none; color: white;}
+  </style>
+</head>
+<body>
+  <main>
+    <section id="text">
+      <h1>Learn to code by<br>watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+    </section>
+    <div id="form-area">
+      <div class="trial">
+        Try it free 7 days <span>then $20/mo. therafter</span>
+      </div>
+      <form action="#" id="form">
+        <div class="infield">
+          <input type="text" placeholder="First Name">
+          <img src="./images/icon-error.svg" alt="icon-error" class="error-image">
+          <p class="error-text">First Name cannot be empty</p>
+        </div>
+        <div class="infield">
+          <input type="text" placeholder="Last Name">
+          <img src="./images/icon-error.svg" alt="icon-error" class="error-image">
+          <p class="error-text">Last Name cannot be empty</p>
+        </div>
+        <div class="infield">
+          <input type="text" placeholder="Email Address" class="input-email">
+          <img src="./images/icon-error.svg" alt="icon-error" class="error-image">
+          <p class="error-text">Looks like this is not an email</p>
+          <p class="error-email">Email cannot be empty</p>
+        </div>
+        <div class="infield">
+          <input type="password" placeholder="Password">
+          <img src="./images/icon-error.svg" alt="icon-error" class="error-image">
+          <p class="error-text">Password cannot be empty</p>
+        </div>
+        <button type="submit">Claim your free trial</button>
+        <p id="terms">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+      </form>
+    </div>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>. 
+    Coded by <a href="#"> Biplob Barua Rocky</a>.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
